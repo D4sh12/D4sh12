@@ -14,11 +14,11 @@ class SoftwareEngineer:
         self.language_spoken = ["ar_SY", "en_US"]
 
     def say_hi(self):
-        print("Thanks for dropping by, hope we can be friends.")
+        print("Thanks for dropping by, hope we can be friends :D")
 
-
-me = SoftwareEngineer()
-me.say_hi()
+if __name__ == "__main__":
+    me = SoftwareEngineer()
+    me.say_hi()
 ```
 
 ## 🔧 Technologies & Tools
